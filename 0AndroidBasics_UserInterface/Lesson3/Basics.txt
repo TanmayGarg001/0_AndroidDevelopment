@@ -1,0 +1,6 @@
+package name is unique so that it can be uniquely identified and distinguished in play store.Also package name is nothing but the company's domain name in reverse order followed by the actual application name.
+
+The very first lines in xml files implies that were working with the attributes that are
+specific to android development and working with layouts.
+
+API refers to the operating system level. x86 tells particular type of hardware configuration.

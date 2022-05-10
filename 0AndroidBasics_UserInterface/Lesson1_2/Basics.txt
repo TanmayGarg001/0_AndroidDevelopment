@@ -1,0 +1,44 @@
+Views are basic building blocks.View is in a rectangle by default ex:- ImageView,TextView,Button etc. Views combine to make a ViewGroup which further combine to make a layout.Format of views is CamelCase.
+//Parent are layouts or ViewGroups and children are views . Views b/w themselves are siblings.
+//Remember view Groups are also a view!
+
+//Linear layout :- arranges children in a vertical column or a horizontal row
+//RelativeLayout :- arranges children relative to parent or relative to other sibling
+XML :- Extensible markup language (way to describe how our app looks i.e. way to build layouts)
+
+// xmlns:android="http://schemas.android.com/apk/res/android"
+//This is XML's namespace declaration
+
+Xml syntax means the rules that we have to follow whilst writing xml code.
+We use elements with self closing tag in xml and assign them various properties(attributes)(name and value pairs) .Example:-ImageView , Button etc.
+
+Linear layouts and other are not self closing tags as these are embbeded with other self closing tags in them.
+
+dp:- dp is unit of measure and stands for density independent pixel
+
+lets say we have 3 types of 6inch phone. Each has resolution higher than the previous one i.e. Res1<Res2<Res3.
+Now if we add a pink square and say 10pixels height and width of it, size if it will be more in device1>device2>device3. Because size is inv. propotional to resolution.
+
+So to overcome this we use unit 'dp' as it is independent of the screen resolution,and android solves the problem for us and the views sizes becomes dynamic as the device's resolution changes.
+
+Target at least 48dp height and width of views that ure using as they are user friendly and clickable.
+sp - scalable pixels is same as dp but is used for font sizes.
+The primary difference between an sp and a dp is that sp's preserve a user's font settings in android settings in his/her phone. Users who have larger text settings for accessibility will see font sizes match their text size preferences.
+14sp = small,18sp=medium,22sp=large (in general)
+or we can use dyanmic property if we don't want to hardcode the values.
+Example :- android:textApperance = "?android:textAppearanceLarge"
+
+//Linear Layout :-
+see the images.
+use wrap_content as it will wrap around the element instead of hardcoding it which is not a good practice.
+use match_parent to match the child size (width or height) to the parent.
+Somewhat similar to what we did in CSS instead of hard coding in pixels we used %age
+so that it can be dynamic its same here.
+
+android:scaleType ="centerCrop" crops the boundary and fits the whole image.
+
+make height =0 and then use weight in vertical layout similarly in horizontal too coz then it fills the space evenly
+
+//Relative Layout :-
+see the images.
+//Margin and Paddings = you know them very well :)
