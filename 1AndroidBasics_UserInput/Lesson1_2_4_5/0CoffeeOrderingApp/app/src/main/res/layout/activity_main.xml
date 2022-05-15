@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkg"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/customer_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:autofillHints="@string/username"
+        android:hint="@string/username"
+        android:inputType="textNoSuggestions|textCapSentences"
+        android:minHeight="48dp"
+        android:paddingStart="8dp"
+        android:textColor="#BA68C8"
+        android:textColorHint="#FFEBEE"
+        android:textSize="16sp"
+        tools:ignore="RtlSymmetry,TextFields" />
+
+    <TextView
+        style="@style/Heading"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/toppings" />
+
+    <CheckBox
+        android:id="@+id/whipped_cream"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:buttonTint="#9FA8DA"
+        android:paddingStart="8dp"
+        android:text="@string/whipped_cream"
+        android:textColor="#FFE082"
+        android:textSize="16sp"
+        tools:ignore="RtlSymmetry" />
+
+    <CheckBox
+        android:id="@+id/chocolate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:buttonTint="#9FA8DA"
+        android:paddingStart="8dp"
+        android:text="@string/chocolate"
+        android:textColor="#FFE082"
+        android:textSize="16sp"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        style="@style/Heading"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/quantity" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp">
+
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#5C6BC0"
+            android:onClick="decrementNumberOfCoffees"
+            android:text="@string/minus"
+            tools:ignore="UsingOnClickInXml,TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/quantity_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="@string/amount"
+            android:textColor="#FFE082"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#5C6BC0"
+            android:onClick="incrementNumberOfCoffees"
+            android:text="@string/plus"
+            tools:ignore="UsingOnClickInXml" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/Heading"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/price"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/price_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/realPrice"
+        android:textColor="#E0F2F1"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/order_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/message"
+        android:textColor="#29B6F6"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:backgroundTint="#673AB7"
+        android:onClick="orderButton"
+        android:text="@string/order"
+        android:textSize="14sp"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/mail_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:backgroundTint="#66BB6A"
+        android:onClick="mailIndent"
+        android:text="@string/share_via_mail"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        tools:ignore="UsingOnClickInXml,TextContrastCheck" />
+
+</LinearLayout>

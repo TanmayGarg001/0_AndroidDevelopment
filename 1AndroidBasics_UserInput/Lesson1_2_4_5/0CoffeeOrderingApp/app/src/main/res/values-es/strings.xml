@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Coffee Ordering App</string>
+    <string name="quantity">Quantite</string>
+    <string name="amount">Amounte</string>
+    <string name="plus">plus</string>
+    <string name="minus">minus</string>
+    <string name="order">ORDERE</string>
+    <string name="price">Price</string>
+    <string name="message">mesaaege</string>
+    <string name="realPrice">$0.0</string>
+    <string name="toppings">Toppings</string>
+    <string name="whipped_cream">Whippede Creame</string>
+    <string name="chocolate">Chocoalte</string>
+    <string name="username">Name</string>
+    <string name="share_via_mail">mail</string>
+</resources>
