@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0cdbe"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/numbers"
+        style="@style/MM_options"
+        android:background="#ffccee"
+        android:text="@string/MM_numbers" />
+
+    <TextView
+        android:id="@+id/family_members"
+        style="@style/MM_options"
+        android:background="#daf2dc"
+        android:text="@string/MM_family_members" />
+
+    <TextView
+        android:id="@+id/colors"
+        style="@style/MM_options"
+        android:background="#81b7d2"
+        android:text="@string/MM_colors" />
+
+    <TextView
+        android:id="@+id/phrases"
+        style="@style/MM_options"
+        android:background="#7986CB"
+        android:text="@string/MM_phrases" />
+
+</LinearLayout>

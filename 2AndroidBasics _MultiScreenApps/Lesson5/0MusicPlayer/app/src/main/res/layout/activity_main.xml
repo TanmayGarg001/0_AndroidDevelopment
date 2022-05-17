@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="#E1BEE7"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/playButton"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:layout_weight="1"
+        android:backgroundTint="#B3E5FC"
+        android:padding="8dp"
+        android:text="@string/play"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/pauseButton"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:layout_weight="1"
+        android:backgroundTint="#C8E6C9"
+        android:padding="8dp"
+        android:text="@string/pause"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/forwardButton"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:layout_weight="1"
+        android:backgroundTint="#FFECB3"
+        android:letterSpacing="-0.3"
+        android:padding="8dp"
+        android:text="@string/forward"
+        android:textSize="20sp" />
+</LinearLayout>

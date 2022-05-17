@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Languide</string>
+    <string name="MM_numbers">Numbers</string>
+    <string name="MM_family_members">Family Members</string>
+    <string name="MM_colors">Colors</string>
+    <string name="MM_phrases">Phrases</string>
+    <string name="imagePlaceholder">Image Content Description</string>
+
+</resources>

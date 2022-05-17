@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">MusicPlayer</string>
+    <string name="play">▶</string>
+    <string name="pause">| |</string>
+    <string name="forward">▶▶</string>
+
+</resources>
