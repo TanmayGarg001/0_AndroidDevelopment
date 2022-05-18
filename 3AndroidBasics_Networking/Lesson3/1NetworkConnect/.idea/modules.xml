@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1NetworkConnect.iml" filepath="$PROJECT_DIR$/.idea/modules/1NetworkConnect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Application/1NetworkConnect.Application.iml" filepath="$PROJECT_DIR$/.idea/modules/Application/1NetworkConnect.Application.iml" />
+    </modules>
+  </component>
+</project>
