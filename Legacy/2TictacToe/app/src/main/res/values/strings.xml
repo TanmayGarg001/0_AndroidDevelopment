@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="heading">Tic-Tac-Toe</string>
+    <string name="todo">TODO</string>
+    <string name="zero">zero</string>
+    <string name="one">One</string>
+    <string name="two">Two</string>
+    <string name="three">Three</string>
+    <string name="four">Four</string>
+    <string name="five">Five</string>
+    <string name="six">Six</string>
+    <string name="seven">Seven</string>
+    <string name="eight">Eight</string>
+    <string name="matrix">matrixImage</string>
+    <string name="made_by_tanmay_garg">Made by - Tanmay Garg</string>
+</resources>

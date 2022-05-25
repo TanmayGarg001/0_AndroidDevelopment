@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Layouts</string>
+    <string name="button_test">Send</string>
+    <string name = "textView_test">Some_text</string>
+    <string name="enter_email_id_here">Enter Email ID here :</string>
+    <string name="button">Button</string>
+    <string name="button">Button</string>
+    <string name="button">Button</string>
+    <string name="button">Button</string>
+    <string name="button">Button</string>
+    <string name="button">Button</string>
+    <string name="button">Button</string>
+</resources>
